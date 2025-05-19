@@ -9,9 +9,17 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="D:\PLA\src\ga\GeneticAlgorithmManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
     <CustomBuild Include="D:\PLA\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B1E8FB5D-A64C-3C9B-A982-BA02B3884F7B}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{E9B06B6A-E44A-3A77-8FAF-BDA6A297F9A9}</UniqueIdentifier>
     </Filter>

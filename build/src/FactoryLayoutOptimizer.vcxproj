@@ -284,7 +284,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\18205\anaconda3\Library\lib\cmake\Qt5\Qt5Config.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\share\cmake-3.29\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\PLA\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/PLA/src/CMakeLists.txt</Message>
@@ -297,7 +297,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\18205\anaconda3\Library\lib\cmake\Qt5\Qt5Config.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\share\cmake-3.29\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\PLA\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/PLA/src/CMakeLists.txt</Message>
@@ -310,7 +310,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\18205\anaconda3\Library\lib\cmake\Qt5\Qt5Config.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\share\cmake-3.29\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\PLA\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/PLA/src/CMakeLists.txt</Message>
@@ -323,7 +323,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\18205\anaconda3\Library\lib\cmake\Qt5\Qt5Config.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\18205\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\share\cmake-3.29\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\PLA\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
@@ -331,6 +331,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="D:\PLA\src\main.cpp" />
     <ClCompile Include="D:\PLA\src\ga\GeneticAlgorithmManager.cpp" />
+    <ClInclude Include="D:\PLA\src\ga\GeneticAlgorithmManager.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:\PLA\build\ZERO_CHECK.vcxproj">
