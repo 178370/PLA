@@ -168,15 +168,6 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_VERBOSE_MAKEFILE:BOOL=OFF
 
 //Value Computed by CMake
-FactoryLayoutOptimizerSrc_BINARY_DIR:STATIC=D:/PLA/build/src
-
-//Value Computed by CMake
-FactoryLayoutOptimizerSrc_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-FactoryLayoutOptimizerSrc_SOURCE_DIR:STATIC=D:/PLA/src
-
-//Value Computed by CMake
 FactoryLayoutOptimizer_BINARY_DIR:STATIC=D:/PLA/build
 
 //Value Computed by CMake
